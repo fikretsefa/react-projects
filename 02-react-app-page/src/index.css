@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #282d35;
+  background-image: url(./images/reactjs-icon.png);
+  background-repeat: no-repeat;
+  background-position: right 25%;
+  background-size: 15rem;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding:  30px 25px;
+}
+
+nav > h3, nav > h4
+{
+  margin: 0;
+}
+
+nav > img
+{
+  margin-right: 7px;
+  height: 30px;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav > h4 {
+  color: #DEEBF8;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+main{
+  padding: 57px 27px;
+  color:white;
+}
+
+main > h1{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+main > ul{  
+  margin-top: 46px;
+}
+
+
+main > ul > li{  
+ line-height: 19px;
+ padding-block: 10px;
+}
+
+main > ul > li::marker{  
+ font-size: 1.5rem; 
+ color: #61DAFB;
+ }

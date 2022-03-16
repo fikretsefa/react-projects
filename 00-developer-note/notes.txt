@@ -1,0 +1,33 @@
+what is the position relative and absolute?
+relative üzerine absolute ile veri yazdırabilirsin
+
+{...item} ile aldığında props.id ile 
+item={item} ile aldığından props.item.id ile karşılaman lazım
+
+REM: Relative to the root element (HTML tag)
+
+%: Relative to the parent element
+
+VW: Relative to the viewport’s width
+
+VH: Relative to the viewport’s height
+
+ text-indent: 5px; -> placeholder nereden başlayacak veya içersindeki yazı
+
+
+ // const {url} = memesArray[randomNumber];
+    const url = memesArray[randomNumber].url; aynı şey
+ 
+
+    Props’lar , bir componentten başka bir componente veri aktarımı yapmamızı sağlar. 
+    Props’lar salt okunur (read-only) dir. Değiştirilemezler. 
+    Data; ana componentten alt componentlere geçerken alt componentler tarafından herhangi bir değişime uğramaz. 
+    Aşağıdaki görselde ana componentte tanımlanan propsun alt componentlere nasıl aktarıldığı gösterilmiştir.
+
+    State bir componentin o anki durumunu gösteren ve farklı property’lerden oluşan bir javascript objesidir.
+Her component kendi içerisinde state’lere sahip olabilir ve state’ler kullanıldığı componentler tarafından yönetilir. State’ler componentin o anki durumunu simgeler.
+
+
+childlara sadece props iletilir state iletilmez
+
+Side Effect; uygulamalarda yapılan sorgulamalar neticesinde verilerde herhangi bir değişikliğin oluşup oluşmaması durumudur.

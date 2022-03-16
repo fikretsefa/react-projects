@@ -1,0 +1,37 @@
+crossorigin nedir?
+
+JSX nedir?
+    const element = <h1>Merhaba Dünya!</h1>;
+    Bu string yada HTML değildir.
+    Buna JSX denir, JavaScript için bir syntax uzantısıdır.
+    JSX, React elementleri üretir.
+
+    Fonksiyonları JSX’e Yerleştirmek
+    function getGreeting(user) {
+    if (user) {
+        return <h1>Merhaba {formatName(user)}!</h1>;
+    }
+    return <h1>Merhaba yabancı.</h1>;
+    }
+
+
+    JSX ile Attribute Belirlemek
+    const element = <div tabIndex="0"></div>;
+    const element = <img src={user.avatarUrl}></img>;
+
+    JSX ile Child Belirtmek
+    Bir etiket boşsa (child element içermiyorsa manasında), XML gibi hemen /> ile kapatabilirsiniz
+    const element = <img src={user.avatarUrl} />;
+
+    JSX, Enjeksiyon Saldırılarını Önler
+    Input’tan gelen içeriği JSX’e yerleştirmek güvenlidir:
+    const title = response.inputtanGelenKotuNiyetliGiris;
+    // bu güvenlidir:
+    const element = <h1>{title}</h1>;
+    Varsayılan olarak React DOM, JSX’in içindeki herhangi bir değeri değişkene atmadan önce ifadeyi unicode’a çevirir. Böylece, uygulamanızda açıkça yazılmamış bir şeyi hiçbir zaman enjekte edememenizi sağlar. İşlenmeden önce her şey bir string’e dönüştürülür. Bu, XSS saldırılarını önlemeye yardımcı olur.
+    Örneğin & ifadesi &amp;, < ifadesi &lt;, > ifadesi &gt;, " ifadesi &quot;, ' ifadesi &#39; şekline dönüşecektir. Böylece input üzerinden XSS saldırısı yapmaya kalkılsa bile yazılan kod tamamen string’e dönüşmüş olduğundan etkisiz olacaktır.
+
+Live server nedir?
+Domain gereken uygulamalarda live server kullanırsan localhost oluşturur.
+
+https://medium.com/t%C3%BCrkiye/javascriptin-en-g%C4%B1c%C4%B1k-konular%C4%B1-webpack-babel-eslint-ve-di%C4%9Ferleri-fb2e1232a085
