@@ -4,26 +4,26 @@ React kazanımlarını geliştirmek için oluşturulmuştur.
 
 #### 1 first-react
 
-    React ile kütüphanesiz ilk proje
-    [Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
+React ile kütüphanesiz ilk proje
+[Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
 
 #### 2 react-page-app
 
-    React giriş sayfası oluşturma
-    [Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
+React giriş sayfası oluşturma
+[Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
 
 #### 3 airbnb-app
 
-    React airbnb uygulaması
-    [Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
+React airbnb uygulaması
+[Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
 
 #### 4 meme-generator-app
 
-    Caps üretme uygulaması
-    [Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
+Caps üretme uygulaması
+[Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
 
 #### 5 dice-app
 
-    Zar atma oyunu
-    [Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
+Zar atma oyunu
+[Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
 
