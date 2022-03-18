@@ -27,8 +27,16 @@ Caps üretme uygulaması
 Zar atma oyunu
 [Referans](https://www.youtube.com/watch?v=bMknfKXIFA8)
 
-#### 5 basic-react-interview-question
+#### 6 basic-react-interview-question
 
 Api ile kullanıcı çekme
 [Referans](https://www.youtube.com/watch?v=NNdc47vVp0c)
+
+#### 7 to-do-app
+
+Yapılacaklar listesi uygulaması
+-milligram
+-font awesome
+-axios
+[Referans](https://github.com/nirnejak/todolist)
 
