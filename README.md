@@ -38,5 +38,13 @@ Yapılacaklar listesi uygulaması
 -milligram
 -font awesome
 -axios
+-uuid
 [Referans](https://github.com/nirnejak/todolist)
+
+#### 8 redux-app
+
+Redux Öğrenme Uygulaması
+-redux
+-react-router
+[Referans](https://www.youtube.com/watch?v=UWB8948Kko4)
 
