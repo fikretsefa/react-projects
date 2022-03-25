@@ -43,8 +43,13 @@ Yapılacaklar listesi uygulaması
 
 #### 8 redux-app
 
-Redux Öğrenme Uygulaması
+Redux Mimarisini Öğrenmek için Counter Uygulaması
 -redux
--react-router
 [Referans](https://www.youtube.com/watch?v=UWB8948Kko4)
+
+#### 9 react-router-app
+
+React Router mantığını öğrenmek için router uygulaması
+-Router Dom
+[Referans](https://www.youtube.com/watch?v=Law7wfdg_ls)
 

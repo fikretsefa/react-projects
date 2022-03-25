@@ -7,11 +7,14 @@ import {
     incrementByAmount,
     incrementAsync,
     selectCount,
+    selectStatus,
+    incrementIfOdd
 } from './counterSlice';
 
 
 export function Counter() {
     const count = useSelector(selectCount);
+    const status = useSelector(selectStatus);
     const dispatch = useDispatch();
     const [incrementAmount, setIncrementAmount] = React.useState(5);
     const incrementNumber = Number(incrementAmount) || 0;
@@ -29,8 +32,12 @@ export function Counter() {
                     onChange={(e) => setIncrementAmount(e.target.value)}
                 />
                 <button onClick={() => dispatch(incrementByAmount(incrementNumber))}>Ekle</button>
-                <button onClick={() => dispatch(incrementAsync(incrementNumber))}>Asenkron Ekle</button>
+                <button onClick={() => status ==='idle' ? dispatch(incrementAsync(incrementNumber)) : {}}>
+                    { status === "idle" ? "Async Ekle" : "Yükleniyor"}
+                    
+                </button>
             </div>
+            <button onClick={() => dispatch(incrementIfOdd(incrementNumber))}>Tek ise Ekle</button>
         </>
     );
 }
