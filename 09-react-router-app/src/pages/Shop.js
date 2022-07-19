@@ -24,7 +24,7 @@ export default function Shop() {
       
         {items.map(item => (
           <h1 key={uuidv4()}>
-            <Link to={'shop'}>{item.API}</Link>
+            <Link to={`/shop/${item.API}`}>{item.API}</Link>
           </h1>
         ))}
     </>

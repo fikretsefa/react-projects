@@ -3,6 +3,7 @@ import React from 'react';
 import Nav from './pages/Nav'
 import About from './pages/About'
 import Shop from './pages/Shop'
+import ItemDetails from './pages/ItemDetails'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default function App() {
@@ -13,7 +14,8 @@ export default function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="shop" element={<Shop />} />
+        <Route path="shop" exact element={<Shop />} />
+        <Route path="shop/:id" element={<ItemDetails />} />
 
       </Routes>
     </BrowserRouter>
@@ -23,7 +25,7 @@ export default function App() {
 
 const Home = () => {
   return (<>
-    <h1>Home</h1>
+    <h1>Home Page</h1>
   </>)
 }
 

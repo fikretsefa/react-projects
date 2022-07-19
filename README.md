@@ -53,3 +53,9 @@ React Router mantığını öğrenmek için router uygulaması
 -Router Dom
 [Referans](https://www.youtube.com/watch?v=Law7wfdg_ls)
 
+#### 10 master-of-hooks
+
+React Hookları öğrenmek için hook uygulaması
+-Hooks
+[Referans](https://www.youtube.com/watch?v=4Cf86qVEIJY&ab_channel=RoadsideCoder)
+
