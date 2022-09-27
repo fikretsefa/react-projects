@@ -1,4 +1,4 @@
-# 1 Yılda 100 React Projesi
+# 100 React Projesi
 React kazanımlarını geliştirmek için oluşturulmuştur.
 07-03-2022 01:06
 
