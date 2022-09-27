@@ -4,10 +4,21 @@ function UseMemoHook() {
 
   const [count,setCount] = useState({num:1,id:"abcd",});
 
-  const handleChange = () =>  {
-    return count.num * 2;
-  };
-  useMemo(() => {},[]);
+  //Fazla memory kullanan fonskiyonlar için kullanılabilir.
+  // const handleChange = () =>  {
+  //   for (let i = 0; i < 1000000000; i++) { 
+  //     //doing lot of work
+  //   }
+
+  //   return count.num * 2;
+  // };
+  const handleChange = useMemo(() =>  {
+      for (let i = 0; i < 1000000000; i++) { 
+        //doing lot of work
+      }
+  
+      return count.num * 2;
+  },[count]);
 
   const handleAdd = () => 
   {   
@@ -37,7 +48,7 @@ function UseMemoHook() {
       <button onClick={handleSubstract}>decrease</button>
       <button onClick={handleAdd}>increase</button>
 
-      <p>{handleChange()}</p>
+      <p>{handleChange}</p>
     </div>
   );
 }
